@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="suds",
-    version=suds.__version__,
+    version=suds.__version__ + "-tz",
     description="Lightweight SOAP client",
     author="Jeff Ortel",
     author_email="jortel@redhat.com",
